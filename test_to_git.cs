@@ -16,11 +16,11 @@ namespace ConsoleApplication4
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("second number: "+ num1);
 
-            
-            int s=num+num1;
-            Console.WriteLine("first number + second number = "+s);
+            Console.WriteLine("first number + second number = " + num + num1);
 
-            Console.WriteLine("first number * second number = " + num*num1);
+            Console.WriteLine("first number - second number = " + num - num1);
+
+            Console.WriteLine("first number * second number = " + num * num1);
 
             Console.WriteLine("first number / second number = " + num / num1);
 
