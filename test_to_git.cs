@@ -20,6 +20,12 @@ namespace ConsoleApplication4
             int s=num+num1;
             Console.WriteLine("first number + second number = "+s);
 
+            Console.WriteLine("first number * second number = " + num*num1);
+
+            Console.WriteLine("first number / second number = " + num / num1);
+
+
+
             Console.ReadLine();
 
 
